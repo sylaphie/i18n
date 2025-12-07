@@ -1,5 +1,6 @@
 import EN from './impl/EN';
 import DE from './impl/DE';
+import RU from './impl/RU';
 
 export type Language = {
 	name: string;
@@ -9,7 +10,7 @@ export type Language = {
 	phrases: { [key: string]: string };
 };
 
-export const languages: Language[] = [EN, DE];
+export const languages: Language[] = [EN, DE, RU];
 
 export const getLanguage = (code: string) =>
 	languages.find((lang) => lang.code === (code?.toUpperCase() ?? 'EN')) ||
