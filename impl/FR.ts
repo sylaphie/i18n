@@ -160,7 +160,7 @@ const language: Language = {
 		'Users can download beatmaps directly from the website.':
 			"Les utilisateurs peuvent télécharger des beatmaps directement depuis le site.",
 		'Authentication is handled through the Discord API, and basic user data such as email, username and token is collected. This data is encrypted on our end to ensure security.':
-			"L'authentification est gérée via l'API Discord ; des données de base comme l'email, le nom d'utilisateur et le jeton sont collectées et cryptées pour assurer la sécurité.",
+			"L'authentification est gérée via l'API Discord ; des données de base comme l'email et le nom d'utilisateur sont collectées et cryptées pour votre sécurité."
 		'3. Intellectual Property': '3. Propriété intellectuelle',
 		'osu.direct does not claim ownership of the beatmaps hosted on the platform. All beatmaps remain the property of their respective creators.':
 			"osu.direct ne revendique pas la propriété des beatmaps hébergées. Elles restent la propriété de leurs créateurs respectifs.",
