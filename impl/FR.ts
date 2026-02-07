@@ -174,7 +174,9 @@ const language: Language = {
 		"Discover and Download Beatmaps with Ease": "Découvrez et téléchargez des beatmaps en toute simplicité",
 		"Experience the seamless and powerful osu.direct app": "Découvrez la puissance et la fluidité de l'application osu.direct",
 		"Ready to get started?": "Prêt à commencer ?",
-		"Download the app now and explore beatmaps like never before.": "Téléchargez l'application maintenant et explorez les beatmaps comme jamais auparavant."
+		"Download the app now and explore beatmaps like never before.": "Téléchargez l'application maintenant et explorez les beatmaps comme jamais auparavant.",
+		Download: "Télécharger",
+		"Get Started": "Commencer"
 	}
 };
 
