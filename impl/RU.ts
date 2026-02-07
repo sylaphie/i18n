@@ -198,7 +198,8 @@ const language: Language = {
 			'Оцените бесшовное и мощное приложение osu.direct',
 		'Ready to get started?': 'Готовы начать?',
 		'Download the app now and explore beatmaps like never before.':
-			'Скачайте приложение сейчас и исследуйте битмапы, как никогда раньше.'
+			'Скачайте приложение сейчас и исследуйте битмапы, как никогда раньше.',
+			"Get Started": "Начать"
 	}
 };
 
