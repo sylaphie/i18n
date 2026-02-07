@@ -10,7 +10,7 @@ const language: Language = {
 		'Blazing Fast Downloads': 'Téléchargements ultra-rapides',
 		'We know the pain of waiting for beatmaps to download. With osu.direct, you can enjoy blazing fast speeds without any subscription or payment. Say goodbye to slow downloads and hello to uninterrupted fun.':
 			"Nous connaissons la frustration d'attendre les téléchargements longs. Avec osu.direct, profitez de vitesses rapides sans abonnement ni paiement. Dites adieu aux téléchargements lents et bonjour au plaisir ininterrompu.",
-		'Reliability You Can Trust': 'Une fiabilité au quel vous pouvez avoir confiance.',
+		'Reliability You Can Trust': 'Une fiabilité à laquelle vous pouvez avoir confiance.',
 		"Previously known as Kitsu, we've rebranded to osu.direct with a commitment to reliability. Trusted by major projects like osu!droid and Akatsuki, you can count on us to deliver seamless service.":
 			"Anciennement sous le nom de Kitsu, nous avons changé d'identité pour osu.direct avec un engagement ferme envers la fiabilité. Utilisé par des projets majeurs comme osu!droid et Akatsuki, vous pouvez compter sur nous pour un service fluide.",
 		'Wide Compatibility': 'Large compatibilité',
@@ -24,12 +24,22 @@ const language: Language = {
 		Any: 'Tous',
 		Qualified: 'Qualifié',
 		Pending: 'En attente',
+		Ranked: 'Ranked',
+		Loved: 'Loved',
+		Artist: 'Artiste',
+		'Featured Artist': 'Artiste featuré',
 		Graveyard: 'Cimetière',
 		graveyard: 'cimetière',
+		Plays: 'Parties',
+		Status: 'Statut',
+		'Explicit Content': 'Contenu explicite',
+		Extra: 'Extra',
 		submitted: 'soumis',
 		'last updated': 'dernière mise à jour',
+		Reset: 'Réinitialiser',
 		Length: 'Durée',
 		Count: 'Nombre',
+		Download: 'Télécharger',
 		CTRL: 'CTRL',
 		'Quick Search': 'Recherche rapide',
 		'showing {{from}} - {{to}} of {{total}} entries':
@@ -43,7 +53,7 @@ const language: Language = {
 		'Support us!': 'Nous soutenir !',
 		'Join Discord': 'Rejoindre le Discord',
 		'More from': 'Plus de',
-		'Similar Sets': 'Sets similaires',
+		'Similar Sets': 'Maps similaires',
 		Categories: 'Catégories',
 		Hide: 'Masquer',
 		Show: 'Afficher',
@@ -64,6 +74,13 @@ const language: Language = {
 		created: 'créé',
 		Submitted: 'Soumis',
 		Favourites: 'Favoris',
+		'Creator Name': 'Nom du créateur',
+		'Creator ID': 'ID du créateur',
+		'Circle Count': 'Nombre de cercles',
+		'Slider Count': 'Nombre de sliders',
+		'Spinner Count': 'Nombre de spinners',
+		'Max Combo': 'Combo Max',
+		'Play Count': 'Nombre de plays',
 		'Download Queue': 'File de téléchargement',
 		'Download Maps': 'Télécharger les maps',
 		'Download Maps (no video)': 'Télécharger les maps (sans vidéo)',
@@ -78,7 +95,7 @@ const language: Language = {
 		'Guest Participation Beatmaps': 'Participations en tant que guest',
 		'Pending Beatmaps': 'Beatmaps en attente',
 		'Graveyarded Beatmaps': 'Beatmaps au cimetière',
-		'This user has no ranked maps.': "Cet utilisateur n'a pas de maps classées.",
+		'This user has no ranked maps.': "Cet utilisateur n'a pas de maps ranked.",
 		'This user has no loved maps.': "Cet utilisateur n'a pas de maps 'loved'.",
 		'This user has no guest participations.': "Cet utilisateur n'a pas de participations invitées.",
 		'This user has no pending maps.': "Cet utilisateur n'a pas de maps en attente.",
@@ -91,10 +108,14 @@ const language: Language = {
 		'show more': 'en voir plus',
 		'Star Rating': 'Nombre d’étoiles',
 		Accuracy: 'Précision',
+		'Circle Size': 'Taille des cercles',
+		'Approach Rate': 'Vitesse d’approche',
+		'HP Drain': 'Perte d\'HP',
 		by: 'par',
+		'Beatmap Preview': 'Aperçu de la beatmap',
 		'Favourite Beatmaps': 'Beatmaps favorites',
 		'Most Played Beatmaps': 'Beatmaps les plus jouées',
-		'New Ranked Beatmaps': 'Nouvelles beatmaps classées',
+		'New Ranked Beatmaps': 'Nouvelles beatmaps Ranked',
 		'Seamless Compatibility': 'Compatibilité parfaite',
 		'seamlessly works with both osu!stable and osu!lazer clients, effortlessly importing downloaded beatmaps regardless of which client you use, ensuring a consistent and hassle-free experience across different versions of the game.':
 			"Fonctionne parfaitement avec les clients osu!stable et osu!lazer, important sans effort les beatmaps téléchargées quel que soit le client utilisé, garantissant une expérience cohérente et sans tracas sur les différentes versions du jeu.",
@@ -139,7 +160,7 @@ const language: Language = {
 		'Users can download beatmaps directly from the website.':
 			"Les utilisateurs peuvent télécharger des beatmaps directement depuis le site.",
 		'Authentication is handled through the Discord API, and basic user data such as email, username and token is collected. This data is encrypted on our end to ensure security.':
-			"L'authentification est gérée via l'API Discord ; des données de base comme l'email et le nom d'utilisateur sont collectées et cryptées pour votre sécurité.",
+			"L'authentification est gérée via l'API Discord ; des données de base comme l'email, le nom d'utilisateur et le jeton sont collectées et cryptées pour assurer la sécurité.",
 		'3. Intellectual Property': '3. Propriété intellectuelle',
 		'osu.direct does not claim ownership of the beatmaps hosted on the platform. All beatmaps remain the property of their respective creators.':
 			"osu.direct ne revendique pas la propriété des beatmaps hébergées. Elles restent la propriété de leurs créateurs respectifs.",
@@ -163,7 +184,7 @@ const language: Language = {
 			"Nous nous réservons le droit de limiter ou de mettre fin à l'accès au service à tout moment.",
 		'6. Termination': '6. Résiliation',
 		'We reserve the right to suspend or terminate access to osu.direct at our discretion if users violate these terms or engage in harmful behavior. We may also restrict access to the service if it is necessary to protect the security and integrity of our platform.':
-			"Nous nous réservons le droit de suspendre l'accès en cas de violation des conditions ou de comportement nuisible, ou pour protéger l'intégrité de la plateforme.",
+			"Nous nous réservons le droit de suspendre ou de résilier l'accès en cas de violation des conditions ou de comportement nuisible, ou pour protéger l'intégrité de la plateforme.",
 		'7. Changes to the Terms': '7. Modification des conditions',
 		'We may modify these terms at any time. Continued use of osu.direct after changes are posted constitutes acceptance of the updated terms.':
 			"Nous pouvons modifier ces conditions à tout moment. L'utilisation continue après modification vaut acceptation.",
@@ -171,10 +192,13 @@ const language: Language = {
 		'For any questions or concerns about these terms, please contact us on our Discord:':
 			"Pour toute question concernant ces conditions, contactez-nous sur Discord :",
 		'Last Updated': 'Dernière mise à jour',
-		"Discover and Download Beatmaps with Ease": "Découvrez et téléchargez des beatmaps en toute simplicité",
-		"Experience the seamless and powerful osu.direct app": "Découvrez la puissance et la fluidité de l'application osu.direct",
-		"Ready to get started?": "Prêt à commencer ?",
-		"Download the app now and explore beatmaps like never before.": "Téléchargez l'application maintenant et explorez les beatmaps comme jamais auparavant."
+		'Discover and Download Beatmaps with Ease': 'Découvrez et téléchargez des beatmaps en toute simplicité',
+		'Experience the seamless and powerful osu.direct app':
+			"Découvrez la puissance et la fluidité de l'application osu.direct",
+		'Ready to get started?': 'Prêt à commencer ?',
+		'Download the app now and explore beatmaps like never before.':
+			"Téléchargez l'application maintenant et explorez les beatmaps comme jamais auparavant.",
+		'Get Started': 'Commencer'
 	}
 };
 
