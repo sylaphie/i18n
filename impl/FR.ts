@@ -110,7 +110,7 @@ const language: Language = {
 		'Add advanced filter': 'Ajouter un filtre avancé',
 		'Select a filter value': 'Sélectionner une valeur de filtre',
 		'This is taking longer than expected...': 'Cela prend plus de temps que prévu...',
-		'API Documentation': 'Documentation de l'API',
+		'API Documentation': 'Documentation de l\'API',
 		'This beatmap contains a video': 'Cette beatmap contient une vidéo',
 		'This beatmap contains a storyboard': 'Cette beatmap contient un storyboard',
 		'This beatmap is spotlighted': 'Cette beatmap est mise en vedette',
